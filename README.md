@@ -164,6 +164,6 @@ Non versionnés (taille) :
 `ultralytics 8.4.60` · `z3-solver 4.16.0` · `onnx 1.21.0` ·
 `onnxruntime 1.26.0` · `opencv-python`.
 
-## Licence
+
 
 
