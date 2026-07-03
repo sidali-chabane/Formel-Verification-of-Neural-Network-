@@ -155,9 +155,7 @@ Non versionnés (taille) :
 - **KITTI** (détection 2D) : à télécharger sur le
   [site KITTI](https://www.cvlib.net/datasets/kitti/), converti au format YOLO
   et rangé en `kitti/images/{train,val}` et `kitti/labels/{train,val}`.
-- **Modèle `best.pt`** (YOLOv8n entraîné sur KITTI) : à publier via Git LFS ou en
-  *release* GitHub. L'export ONNX est produit automatiquement au premier appel du
-  bloc de robustesse.
+
 
 ---
 
@@ -168,4 +166,4 @@ Non versionnés (taille) :
 
 ## Licence
 
-Distribué sous licence MIT — voir [`LICENSE`](LICENSE).
+
