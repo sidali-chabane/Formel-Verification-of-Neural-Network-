@@ -1,0 +1,20 @@
+[
+  {
+    "epsilon": 1,
+    "robustness_pct": 100.0,
+    "conf_delta_mean": 0.009973228640026517,
+    "conf_delta_max": 0.05033141374588013
+  },
+  {
+    "epsilon": 5,
+    "robustness_pct": 80.0,
+    "conf_delta_mean": 0.052635044521755645,
+    "conf_delta_max": 0.29020044207572937
+  },
+  {
+    "epsilon": 10,
+    "robustness_pct": 57.77777777777778,
+    "conf_delta_mean": 0.13130723900265165,
+    "conf_delta_max": 0.4560963809490204
+  }
+]

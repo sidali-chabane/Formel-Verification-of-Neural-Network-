@@ -1,0 +1,13 @@
+# --- Caractérisation empirique (YOLO / KITTI) ---
+ultralytics>=8.4.60       # YOLOv8 : inférence + export ONNX
+opencv-python>=4.8        # lecture et annotation des images
+numpy>=1.24
+matplotlib>=3.7           # graphiques de distribution des régimes
+
+# --- Vérification formelle SMT + robustesse ---
+z3-solver>=4.16.0         # solveur SMT (partition, profil conservateur)
+onnx>=1.21.0
+onnxruntime>=1.26.0       # inférence ONNX (analyse de robustesse)
+
+# --- Optionnel : génération des rapports PDF ---
+reportlab>=4.0

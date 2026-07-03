@@ -1,0 +1,26 @@
+# --- Modèle YOLO (volumineux — via Git LFS ou release) ---
+*.pt
+*.onnx
+
+# --- Jeu de données KITTI (à télécharger séparément) ---
+kitti/
+dataset/
+
+# --- Sorties régénérables ---
+verification_results/
+*.pdf
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- OS / éditeurs ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
